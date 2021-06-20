@@ -12,7 +12,7 @@ let apikey='4901e85860bb94e57b1ac15062076c81';
  
 
 app.get('/',(req,res)=>{
-    res.render('index');
+    res.render('index',{weather: null, error: null});
 })
 
 
